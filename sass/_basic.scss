@@ -1,0 +1,19 @@
+body{
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size: 2em;
+    font-weight: 400;
+    margin-left:80px;
+}
+figure{
+    margin:0;
+}
+.blind{
+    @include blindText; 
+}

@@ -1,0 +1,20 @@
+$col:64px;
+$gutter:16px;
+$ncol:16;
+$body_width: ($ncol * $col) + (($ncol - 1) * $gutter);
+
+/*@for $i from 1 through $ncol{
+    $col-$i : $i * $col + ($i - 1) * $gutter;
+}*/
+$col_2:(2*$col) + (1*$gutter);
+$col_3:(3*$col) + (2*$gutter);
+$col_4:(4*$col) + (3*$gutter);
+$col_5:(5*$col) + (4*$gutter);
+$col_6:(6*$col) + (5*$gutter);
+$col_7:(7*$col) + (6*$gutter);
+$col_8:(8*$col) + (7*$gutter);
+$col_10:(10*$col) + (9*$gutter);
+$col_11:(11*$col) + (10*$gutter);
+$col_12:(12*$col) + (11*$gutter);
+$red:#aa0202;
+$darkGrey:#282828;

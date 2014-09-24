@@ -1,0 +1,87 @@
+@include keyframes(Autoslide){
+    0%, 25%, 100% {
+        left:0px; /*première image et dernière */
+    }
+    30%, 55% {
+        left: -100%; /*deuxième image */
+    }
+    60%, 85% {
+        left:-200%;/*troisième*/
+    }
+}
+.projets{
+    //@include center_body();
+    margin-top:3em;
+    &>a{
+        font-size:1.5em;
+        width:$col_12;
+        @include redButton;
+        margin:1em auto 4em; 
+    }
+}
+.projSlider{
+    width:100%;
+    //height:708px;
+    //margin-bottom:3em;
+    position:relative;
+    overflow: hidden;
+    //@include single-box-shadow(0px,0px,15px,0,rgba(1,1,1,0.5));
+    /*.conteneur{
+        width:300%;
+        position: absolute;
+        top:0;
+        left:0;
+        @include animation-name(Autoslide);
+        @include animation-duration(30s);
+        @include animation-iteration-count(infinite);
+        @include animation-timing-function(ease-in-out);
+    }*/
+    article{
+        width:33.333333333%;
+        @include list_horizontal;
+        position:relative;
+        &:hover .info{
+            opacity: 1;
+            background-color: rgba(1,1,1,0.5);
+            top:0;
+        }
+    }
+    img{
+        max-width: 100%;
+    }
+    
+}    
+.info{
+    @include box-sizing(border-box);
+    padding-top: 300px;
+    opacity:0;
+    color:white;
+    width:100%;
+    height:708px;
+    position:absolute;
+    @include transition-duration(0.5s);
+    display:block;
+    left:0;
+    top:-16em;
+    padding:1em;
+    h2{
+        
+    }
+    p{
+        //width:$col_8;
+    }
+    a{
+        @include redButton;
+        width:$col_4;
+        float:right;
+        vertical-align: bottom;
+    }
+    a+a{
+        margin-right:$gutter;
+    }
+    &:hover{
+        background-color: rgba(1,1,1,0.5);
+        opacity:1;
+        top:0;
+    }
+}

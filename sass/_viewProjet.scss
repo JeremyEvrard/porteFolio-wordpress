@@ -1,0 +1,43 @@
+.articleProjet{
+    @include center_body;
+    h2{
+        font-family: 'merryWeather', serif;
+        font-size:2em;
+        margin-bottom: 0.66em;
+    }
+    p{
+        font-size: 1.5em;
+    }
+
+}
+.intro{
+    @include clearFloat;
+    figure{
+            //text-align: center;
+            margin-top:2em;
+            width:$col_8;
+            float:left;
+            display:block;
+            margin-right:$gutter;
+            img{
+                width:100%;
+            }
+        }
+        h2{
+            font-size:3em;
+            text-align: center;
+            width:$col_8;
+            float:left;
+        }
+        p{
+            width:$col_8;
+            font-size: 1.5em;
+            margin-bottom: 3em;
+            float:left;
+        }
+}
+.fonctionalite, .responsive{
+    width:$col_12;
+    margin:auto;
+    margin-bottom: 4em;
+}

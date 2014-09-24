@@ -1,0 +1,16 @@
+.lastDoc{
+    @include center_body;
+    margin-bottom:2em;
+    ul{
+        width:body_width;
+        li{
+            @include list-horizontal;
+            img{
+                width:$col_4;
+            }
+        }
+        li+li{
+            margin-left:$gutter;
+        }
+    }
+}

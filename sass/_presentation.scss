@@ -1,0 +1,24 @@
+.presentation{
+    @include center_body();
+    @include clearFloat;
+    &>*{
+        float:left;
+    }
+}
+.aboutMe, .contactPage{
+    @include center_body();
+    @include clearFloat;
+    &>*{
+        float:right;
+    }
+}
+.accrocheAboutMe{
+    @include citation;
+    margin-right:80px;
+    margin-top:6em;
+}
+.accroche{
+    @include citation;
+    margin-left:80px;
+    margin-top:6em;
+}
