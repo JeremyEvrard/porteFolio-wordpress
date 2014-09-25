@@ -17,14 +17,20 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
         <header class="home">
-        <h1 class="riban"><a  href="../index.html"><img src="images/riban.png" alt="Jérémy Evrard"></a></h1>
+        <h1 class="riban"><a  href="../index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/riban.png" alt="Jérémy Evrard"></a></h1>
         <nav>
             <h1 class="hidden">menu de naviguation</h1>
+
             <div class="listing">
-                <span class="menuLien"><a href="index.html">Accueil</a></span><!--
-                --><span class="menuLien"><a href="html/projets.html">Mes projets</a></span><!--
-                --><span class="menuLien"><a href="html/propos.html">À propos</a></span><!--
-                --><span class="menuLien"><a href="html/contact.html">Contact</a></span>
+            <?php
+                $arg = array(
+                    'theme_location'  => 'top',
+                    'menu_class'      => 'listing',
+                    'echo'            => true,
+                    'items_wrap'      => '<div id="%1$s" class="%2$s">%3$s</div>',
+                    'walker'          => new themeslug_walker_nav_menu
+                );?>
+                <?php wp_nav_menu($arg); ?>
             </div>
         </nav>
         <div class="banniere">

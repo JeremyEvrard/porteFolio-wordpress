@@ -36,8 +36,19 @@
             float:left;
         }
 }
-.fonctionalite, .responsive{
+.textContent, .textWithImage{
     width:$col_12;
     margin:auto;
     margin-bottom: 4em;
+}
+.textWithImage{
+    figure{
+        width:6em;
+        float:right;
+    }
+    p{
+        width:6em;
+        float:left;
+        margin-right:$gutter;
+    }
 }
