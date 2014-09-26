@@ -11,7 +11,15 @@
 		'supports' => ['title', 'author','editor', 'thumbnails', 'excerpt']
 		];
 		register_post_type('creations',$args);
+
+        $args = [
+        'label' => 'documentations',
+        'public' => true,
+        'supports' => ['title', 'thumbnails']
+        ];
+        register_post_type('documentations',$args);
 	}
+
 	function create_nav_menu(){
 		register_nav_menu( 'top', 'Menu Principal' );
 	}
