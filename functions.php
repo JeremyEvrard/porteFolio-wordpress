@@ -6,6 +6,8 @@
 		$args = [
 		'label' => 'créations',
 		'public' => true,
+        'has_archive' => true,
+        'show_in_nav_menus' => true,
 		'supports' => ['title', 'author','editor', 'thumbnails', 'excerpt']
 		];
 		register_post_type('creations',$args);
@@ -33,7 +35,7 @@ function start_lvl( &$output, $depth = 0, $args = array() ) {
     $class_names = implode( ' ', $classes );
   
     // build html
-    $output .= "\n" . $indent . '<div class="' . $class_names . '">' . "\n";
+   
 }
   
 // add main/sub classes to li's and links

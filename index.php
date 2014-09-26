@@ -7,47 +7,40 @@
     <section class="projets">
         <h1>Mes projets récents</h1>
         <div class="projSlider js-projSlider">
+        <?php
+            $posts = array(
+                'post_type' => 'creations',
+                'ordy_by' => 'date_du_projet',
+                'order' => 'ASC',
+                'posts_limit' => '3'
+            );
+        ?>
+        <?php $the_query = new WP_Query($posts) ?>
+        <?php if($the_query->have_posts()): ?>
             <div class="conteneur">
+        
+            <?php while ( $the_query->have_posts() ) : $the_query->the_post();?>
                 <article>
-                    <a href="html/viewProjet.html">
+                    <a href="<?php the_permalink();?>">
                         <div class="info">
-                            <h2>Bibliosquare</h2>
-                            <p>Ce projet est une platforme de réportorisation de livre. L’idée était de faire une petite bibliothèque en ligne, elle permet de chercher des livres, mais également des auteurs et des éditeurs et permet de classer par genre. Avec ce projet nous avons fais un modèle laravel.</p>
+                            <h2><?php the_title(); ?></h2>
+                            <p><?php the_field('introduction') ?></p>
                         </div>
                         <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/projet1.jpg" alt="projet Bibliosquare">
+                            <img src="<?php the_field('image_mockup') ?>"> 
                         </figure>
                     </a>
                 </article><!--
-                --><article>
-                    <a href="#">
-                        <div class="info">
-                            <h2>Casse brique minimaliste</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In minus, excepturi perspiciatis cupiditate, incidunt delectus! Porro omnis voluptate voluptatem blanditiis natus possimus neque dolores doloremque, reprehenderit iste, molestiae ipsam voluptatibus!</p>
-                        </div>
-                        <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/projet2.jpg" alt="projet casse brique minimaliste">
-                        </figure>
-                    </a>
-                    
-                </article><!--
-                --><article>
-                    <a href="#">
-                        <div class="info">
-                            <h2>Le pendu</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae officia, repudiandae fuga iure aliquam hic ullam quidem quisquam laborum molestiae dolore deserunt culpa animi repellendus, illo consequatur voluptatibus ipsa nesciunt.</p>
-                        </div>
-                        <figure>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/projet3.jpg" alt="projet pendu">
-                        </figure>
-                    </a>
-                </article>
+                -->
+            <?php endwhile ?>
+        <?php endif ?>
+        <?php wp_reset_postdata(); ?>
             </div>
             <!--<button class="prev"><span class="del">projet </span>Précédent</button>
             <button class="next"><span class="del">projet </span>Suivant
             </button>-->
         </div>
-        <a href="html/projets.html">Voir plus de projets</a>
+        <a href="http://localhost:8888/wordpress/mes-projets/">Voir plus de projets</a>
     </section>
     <section class="lastDoc">
         <h1>Mes dernières documentations</h1>

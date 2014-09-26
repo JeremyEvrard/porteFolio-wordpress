@@ -21,17 +21,16 @@
         <nav>
             <h1 class="hidden">menu de naviguation</h1>
 
-            <div class="listing">
             <?php
                 $arg = array(
                     'theme_location'  => 'top',
                     'menu_class'      => 'listing',
+                    'container'       => '',
                     'echo'            => true,
                     'items_wrap'      => '<div id="%1$s" class="%2$s">%3$s</div>',
                     'walker'          => new themeslug_walker_nav_menu
                 );?>
                 <?php wp_nav_menu($arg); ?>
-            </div>
         </nav>
         <div class="banniere">
             <ul>

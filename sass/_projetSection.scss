@@ -37,8 +37,8 @@
         @include animation-timing-function(ease-in-out);
     }*/
     article{
-        width:33.333333333%;
-        @include list_horizontal;
+        width:33.3333333%;
+        float:left;
         position:relative;
         &:hover .info{
             opacity: 1;
