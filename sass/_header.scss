@@ -57,13 +57,12 @@
     }
     .riban{
         position:absolute;
-        text-align: center;
-        width:100%;
+        @include center_body;
         margin:0;
         a{
+            width: 24.05063%;
             position:relative;
             display:block;
-            width:$col_4;
             margin:auto;
             z-index:2;
             top:-4em;
@@ -90,7 +89,7 @@
                 text-decoration: none;
                 //@include box-sizing;
                 display:inline-block;
-                padding:0.75em 10px;
+                padding:0.75em 2%;
                 @include transition_duration(0.2s);
                 position:relative;
                 z-index:3;
@@ -101,11 +100,11 @@
                 }
             }
 
-            &:nth-child(3) a{
-                margin-left:$col_4 + 80px;
+            &:nth-child(3){
+                margin-left:30.379746835443%;
             }
-            &:nth-last-child(n+2) a{
-                margin-right:80px;
+            &:nth-last-child(n+2){
+                margin-right:6.329113924051%;
             }
         }
         .listing{
@@ -161,13 +160,13 @@
         @include center_body;
         li{
             @include list_horizontal;
-            width:$col_6 + $gutter;
+            width:36.7089%;
             padding:1.5em 0;
             font-size: 2em;
             text-align: center;
         }
         li+li{
-            margin-left:$col_4;
+            margin-left:24.050632911392%;
         }
     }
 }

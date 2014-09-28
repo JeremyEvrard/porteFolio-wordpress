@@ -455,6 +455,15 @@ th {
 ________________________________________________________________________________
 
 */
+/* Changing Susy default global settings */
+/* Makes border-box properties */
+/* line 11, ../../../../../../CodeKit.app/Contents/Resources/engines/susy/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* line 104, socialNetwork/*.png */
 .socialNetwork-sprite, .socialNetwork-Facebook, .socialNetwork-Linkedin, .socialNetwork-Rss, .socialNetwork-Twitter {
   background-image: url('/images/socialNetwork-s904bc38bab.png');
@@ -516,7 +525,7 @@ ul {
 h1 {
   font-size: 2em;
   font-weight: 400;
-  margin-left: 80px;
+  margin-left: 6.329113924051%;
 }
 
 /* line 14, sass/_basic.scss */
@@ -651,15 +660,15 @@ br {
 /* line 58, sass/_header.scss */
 .home .riban {
   position: absolute;
-  text-align: center;
-  width: 100%;
+  width: 1264px;
+  margin: auto;
   margin: 0;
 }
-/* line 63, sass/_header.scss */
+/* line 62, sass/_header.scss */
 .home .riban a {
+  width: 24.05063%;
   position: relative;
   display: block;
-  width: 304px;
   margin: auto;
   z-index: 2;
   top: -4em;
@@ -668,15 +677,15 @@ br {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-/* line 71, sass/_header.scss */
+/* line 70, sass/_header.scss */
 .home .riban a:hover {
   top: 0;
 }
-/* line 75, sass/_header.scss */
+/* line 74, sass/_header.scss */
 .home .riban img {
   width: 100%;
 }
-/* line 79, sass/_header.scss */
+/* line 78, sass/_header.scss */
 .home .riban + nav {
   position: relative;
   top: 0;
@@ -684,17 +693,17 @@ br {
   background-color: white;
   height: 6em;
 }
-/* line 85, sass/_header.scss */
+/* line 84, sass/_header.scss */
 .home .riban + nav span {
   display: inline-block;
 }
-/* line 87, sass/_header.scss */
+/* line 86, sass/_header.scss */
 .home .riban + nav span a {
   color: black;
   font-size: 2em;
   text-decoration: none;
   display: inline-block;
-  padding: 0.75em 10px;
+  padding: 0.75em 2%;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
@@ -702,49 +711,49 @@ br {
   position: relative;
   z-index: 3;
 }
-/* line 97, sass/_header.scss */
+/* line 96, sass/_header.scss */
 .home .riban + nav span a:hover {
   border-bottom: 0.16em solid #aa0202;
   color: #aa0202;
 }
-/* line 104, sass/_header.scss */
-.home .riban + nav span:nth-child(3) a {
-  margin-left: 384px;
+/* line 103, sass/_header.scss */
+.home .riban + nav span:nth-child(3) {
+  margin-left: 30.379746835443%;
 }
-/* line 107, sass/_header.scss */
-.home .riban + nav span:nth-last-child(n+2) a {
-  margin-right: 80px;
+/* line 106, sass/_header.scss */
+.home .riban + nav span:nth-last-child(n+2) {
+  margin-right: 6.329113924051%;
 }
-/* line 111, sass/_header.scss */
+/* line 110, sass/_header.scss */
 .home .riban + nav .listing {
   width: 1264px;
   margin: auto;
 }
 
-/* line 155, sass/_header.scss */
+/* line 154, sass/_header.scss */
 .banniere {
   width: 100%;
   position: relative;
   color: white;
   background-color: #282828;
 }
-/* line 160, sass/_header.scss */
+/* line 159, sass/_header.scss */
 .banniere ul {
   width: 1264px;
   margin: auto;
 }
-/* line 162, sass/_header.scss */
+/* line 161, sass/_header.scss */
 .banniere ul li {
   list-style-type: none;
   display: inline-block;
-  width: 480px;
+  width: 36.7089%;
   padding: 1.5em 0;
   font-size: 2em;
   text-align: center;
 }
-/* line 169, sass/_header.scss */
+/* line 168, sass/_header.scss */
 .banniere ul li + li {
-  margin-left: 304px;
+  margin-left: 24.050632911392%;
 }
 
 /* line 1, sass/_presentation.scss */
@@ -784,7 +793,7 @@ br {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   font-style: italic;
-  width: 464px;
+  width: 36.708860759494%;
   font-size: 2em;
   margin-right: 80px;
   margin-top: 6em;
@@ -795,7 +804,7 @@ br {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   font-style: italic;
-  width: 464px;
+  width: 36.708860759494%;
   font-size: 2em;
   margin-left: 80px;
   margin-top: 6em;
@@ -865,7 +874,7 @@ br {
 /* line 15, sass/_projetSection.scss */
 .projets > a {
   font-size: 1.5em;
-  width: 944px;
+  width: 74.683544303797%;
   display: block;
   background-color: rgba(170, 2, 2, 0.5);
   -moz-transition-duration: 0.2s;
@@ -981,14 +990,11 @@ br {
 .lastDoc ul li {
   list-style-type: none;
   display: inline-block;
+  width: 24,050632911392%;
 }
-/* line 8, sass/_lastSearch.scss */
-.lastDoc ul li img {
-  width: 304px;
-}
-/* line 12, sass/_lastSearch.scss */
+/* line 13, sass/_lastSearch.scss */
 .lastDoc ul li + li {
-  margin-left: 16px;
+  margin-left: 1.26582278481%;
 }
 
 /* line 1, sass/_footer.scss */
@@ -1023,12 +1029,12 @@ footer h2 {
 }
 /* line 19, sass/_footer.scss */
 .contact section {
-  width: 304px;
+  width: 24.050632911392%;
   float: left;
 }
 /* line 23, sass/_footer.scss */
 .contact section + section {
-  margin-left: 16px;
+  margin-left: 1.26582278481%;
 }
 /* line 26, sass/_footer.scss */
 .contact p {
@@ -1049,12 +1055,12 @@ footer h2 {
 .contact li {
   list-style-type: none;
   display: inline-block;
+  width: 21.052631578947%;
 }
-/* line 45, sass/_footer.scss */
+/* line 47, sass/_footer.scss */
 .contact li a {
-  width: 64px;
   height: 64px;
-  border-radius: 32px;
+  border-radius: 50%;
   opacity: 0.6;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
@@ -1063,13 +1069,13 @@ footer h2 {
   display: block;
   text-indent: -9999px;
 }
-/* line 54, sass/_footer.scss */
+/* line 55, sass/_footer.scss */
 .contact li a:hover {
   opacity: 1;
 }
-/* line 60, sass/_footer.scss */
+/* line 61, sass/_footer.scss */
 .contact li + li {
-  margin-left: 16px;
+  margin-left: 5.263157894737%;
 }
 
 /* line 1, sass/_listProjet.scss */
@@ -1083,7 +1089,7 @@ footer h2 {
 }
 /* line 7, sass/_listProjet.scss */
 .Projets h2 {
-  margin-left: 80px;
+  margin-left: 6.329113924051%;
   font-weight: 400;
   font-size: 2em;
   font-family: 'merryweather', serif;
@@ -1105,8 +1111,8 @@ footer h2 {
 .Projets > section section {
   padding: 0 16px 16px;
   float: left;
-  width: 608px;
-  margin: 0 16px 1em 0;
+  width: 48%;
+  margin: 0 1.26582278481% 1em 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1168,11 +1174,11 @@ footer h2 {
 }
 /* line 59, sass/_listProjet.scss */
 .Projets span + span {
-  padding-left: 8px;
+  padding-left: 1.388888888889%;
 }
 /* line 62, sass/_listProjet.scss */
 .Projets span:first-child {
-  padding-right: 8px;
+  padding-right: 1.388888888889%;
 }
 /* line 65, sass/_listProjet.scss */
 .Projets .single span {
@@ -1205,33 +1211,33 @@ footer h2 {
 /* line 15, sass/_viewProjet.scss */
 .intro figure {
   margin-top: 2em;
-  width: 624px;
+  width: 49.367088607595%;
   float: left;
   display: block;
-  margin-right: 16px;
+  margin-right: 1.26582278481%;
 }
 /* line 22, sass/_viewProjet.scss */
 .intro figure img {
-  width: 100%;
+  max-width: 100%;
 }
 /* line 26, sass/_viewProjet.scss */
 .intro h2 {
   font-size: 3em;
   text-align: center;
-  width: 624px;
+  width: 49.367088607595%;
   float: left;
 }
 /* line 32, sass/_viewProjet.scss */
 .intro p {
-  width: 624px;
+  float: left;
   font-size: 1.5em;
   margin-bottom: 3em;
-  float: left;
+  width: 49.367088607595%;
 }
 
 /* line 39, sass/_viewProjet.scss */
 .textContent, .textWithImage {
-  width: 944px;
+  width: 74.683544303797%;
   margin: auto;
   margin-bottom: 4em;
 }
@@ -1244,12 +1250,16 @@ footer h2 {
 }
 /* line 46, sass/_viewProjet.scss */
 .textWithImage figure {
-  width: 304px;
+  width: 32.203389830508%;
   float: right;
 }
-/* line 50, sass/_viewProjet.scss */
+/* line 49, sass/_viewProjet.scss */
+.textWithImage figure img {
+  width: 100%;
+}
+/* line 53, sass/_viewProjet.scss */
 .textWithImage p {
-  width: 624px;
+  width: 66.101694915254%;
   float: left;
   margin-right: 16px;
 }
@@ -1277,7 +1287,7 @@ footer h2 {
   padding: 1em 0;
   text-align: center;
   text-decoration: none;
-  width: 304px;
+  width: 65.51724137931%;
   float: right;
 }
 /* line 35, sass/_mixin.scss */
@@ -1293,14 +1303,14 @@ footer h2 {
 }
 /* line 19, sass/_aboutMe.scss */
 .about div {
-  width: 464px;
-  margin-right: 16px;
+  width: 36.708860759494%;
+  margin-right: 1.26582278481%;
   float: left;
   text-align: right;
 }
 /* line 26, sass/_aboutMe.scss */
 .about article {
-  width: 784px;
+  width: 62.025316455696%;
   float: left;
   font-size: 1.5em;
   font-weight: 400;
@@ -1311,9 +1321,9 @@ footer h2 {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   font-style: italic;
-  width: 464px;
+  width: 36.708860759494%;
   font-size: 2em;
-  margin-right: 80px;
+  margin-right: 6.329113924051%;
   margin-top: 2em;
 }
 /* line 5, sass/_contact.scss */
@@ -1330,12 +1340,12 @@ footer h2 {
   font-family: 'Open sans', sans-serif;
   font-style: normal;
   font-size: 0.75em;
-  max-width: 464px;
+  width: 100%;
   z-index: 5;
 }
 /* line 19, sass/_contact.scss */
 .accrocheContact input, .accrocheContact textarea {
-  max-width: 100%;
+  width: 100%;
   display: block;
   margin-bottom: 0.5em;
   font-size: 0.75em;
@@ -1354,7 +1364,7 @@ footer h2 {
   padding: 1em 0;
   text-align: center;
   text-decoration: none;
-  width: 304px;
+  width: 100%;
   padding: 0.5em;
 }
 /* line 35, sass/_mixin.scss */

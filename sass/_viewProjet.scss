@@ -15,40 +15,43 @@
     figure{
             //text-align: center;
             margin-top:2em;
-            width:$col_8;
+            width:49.367088607595%;
             float:left;
             display:block;
-            margin-right:$gutter;
+            margin-right:1.26582278481%;
             img{
-                width:100%;
+                max-width:100%;
             }
         }
         h2{
             font-size:3em;
             text-align: center;
-            width:$col_8;
+            width:49.367088607595%;
             float:left;
         }
         p{
-            width:$col_8;
+            float:left;
             font-size: 1.5em;
             margin-bottom: 3em;
-            float:left;
+            width:49.367088607595%;
         }
 }
 .textContent, .textWithImage{
-    width:$col_12;
+    width:74.683544303797%;
     margin:auto;
     margin-bottom: 4em;
 }
 .textWithImage{
     @include clearFloat;
     figure{
-        width:$col_4;
+        width:32.203389830508%;
         float:right;
+        img{
+            width:100%;
+        }
     }
     p{
-        width:$col_8;
+        width:66.101694915254%;
         float:left;
         margin-right:$gutter;
     }

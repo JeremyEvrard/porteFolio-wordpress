@@ -1,6 +1,6 @@
 .accrocheContact{
     @include citation;
-    margin-right:80px;
+    margin-right:6.329113924051%;
     margin-top:2em;
     h1{
         font-size: 1em;
@@ -13,11 +13,11 @@
         font-family:'Open sans', sans-serif;
         font-style: normal;
         font-size:0.75em;
-        max-width:$col_6;
+        width:100%;
         z-index: 5;
     }
     input, textarea{
-        max-width:100%;
+        width:100%;
         display:block;
         margin-bottom: 0.5em;
         font-size:0.75em;
@@ -26,7 +26,7 @@
     input[type=submit]{
         border:none;
         @include redButton;
-        width:$col_4;
+        width:100%;
         padding:0.5em;
     }
     .error{

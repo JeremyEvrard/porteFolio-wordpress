@@ -5,12 +5,13 @@
         width:body_width;
         li{
             @include list-horizontal;
+            width:24,050632911392%;
             img{
-                width:$col_4;
+                //max-width:100%;
             }
         }
         li+li{
-            margin-left:$gutter;
+            margin-left:1.26582278481%;
         }
     }
 }

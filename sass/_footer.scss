@@ -17,11 +17,11 @@ footer{
     @include clearFloat;
     padding-top: 1em;
     section{
-        width:$col_4;
+        width:24.050632911392%;
         float:left;
     }
     section+section{
-        margin-left: $gutter;
+        margin-left: 1.26582278481%;
     }
     p{
         //width:$col_6;
@@ -42,10 +42,11 @@ footer{
     }
     li{
         @include list-horizontal;
+        width:21.052631578947%;
+        
         a{
-            width:$col;
-            height:$col;
-            border-radius:$col / 2;
+            height:64px;
+            border-radius:50%;
             opacity:0.6;
             //background-size: cover;
             @include transition-duration(0.2s);
@@ -58,6 +59,6 @@ footer{
         }
     }
     li+li{
-        margin-left:$gutter;
+        margin-left:5.263157894737%;
     }    
 }

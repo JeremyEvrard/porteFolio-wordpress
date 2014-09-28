@@ -5,7 +5,7 @@
         font-size:3em;
     }
     h2{
-        margin-left:80px;
+        margin-left:6.329113924051%;
         font-weight: 400;
         font-size: 2em;
         font-family: 'merryweather', serif;
@@ -22,8 +22,8 @@
             //background-color: rgba(1,1,1,0.1);
             padding:0 $gutter $gutter;
             float:left;
-            width:$col_8 - $gutter;
-            margin:0 $gutter 1em 0;
+            width:48%;
+            margin:0 1.26582278481% 1em 0;
             @include box-sizing;
             @include transition-duration(0.2s);
         }
@@ -57,10 +57,10 @@
         }
     }
     span+span{
-        padding-left:8px;
+        padding-left:1.388888888889%;
     }
     span:first-child{
-        padding-right:8px
+        padding-right:1.388888888889%;
     }
     .single span{
         width:100%;

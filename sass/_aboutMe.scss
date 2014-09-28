@@ -5,7 +5,7 @@
     @include clearFloat;
     a{
         @include redButton;
-        width:$col_4;
+        width:65.51724137931%;
         float:right;
     }
     h1{
@@ -17,14 +17,14 @@
         //background-color: $darkGrey;
     }
     div{
-        width:$col_6;
+        width:36.708860759494%;
         //margin-left:$col_6;
-        margin-right:$gutter;
+        margin-right:1.26582278481%;
         float:left;
         text-align: right;
     }
     article{
-        width:$col_10;
+        width:62.025316455696%;
         float:left;
         font-size: 1.5em;
         font-weight:400;
