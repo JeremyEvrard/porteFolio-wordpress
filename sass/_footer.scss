@@ -8,26 +8,35 @@ footer{
     h2{
         clear:both;
         font-weight: 300;
-        padding-top:1.5em;
+        font-size:1.5em;
+        margin:0 0 0.5em;
     }
 }
 .contact{
     @include center_body;
+    @include clearFloat;
     padding-top: 1em;
-    p{
-        width:$col_6;
-        margin: 0 $col_4 0 0;
-        font-size:1.5em;
+    section{
+        width:$col_4;
         float:left;
     }
+    section+section{
+        margin-left: $gutter;
+    }
+    p{
+        //width:$col_6;
+        margin: 0;
+        //font-size:1.5em;
+        //float:left;
+    }
     .coordonnee{
-        width:$col_6;
-        float:left;
+        //width:$col_6;
+        //float:left;
         @include clearFloat;
     }
     ul{
         clear:both;
-        width:$col_8;
+        //width:$col_8;
         padding-bottom: 2em;
         
     }

@@ -3,6 +3,11 @@
     //margin:2em;
     width:$body_width;
     @include clearFloat;
+    a{
+        @include redButton;
+        width:$col_4;
+        float:right;
+    }
     h1{
         font-family: 'merryweather', serif;
         font-size: 3em;

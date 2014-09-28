@@ -529,6 +529,11 @@ figure {
   text-indent: -9999px;
 }
 
+/* line 20, sass/_basic.scss */
+br {
+  display: none;
+}
+
 /* line 1, sass/_header.scss */
 .simple {
   width: 100%;
@@ -640,13 +645,17 @@ figure {
   }  */
 }
 /* line 55, sass/_header.scss */
+.home h1 {
+  height: 0;
+}
+/* line 58, sass/_header.scss */
 .home .riban {
   position: absolute;
   text-align: center;
   width: 100%;
   margin: 0;
 }
-/* line 60, sass/_header.scss */
+/* line 63, sass/_header.scss */
 .home .riban a {
   position: relative;
   display: block;
@@ -659,15 +668,15 @@ figure {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-/* line 68, sass/_header.scss */
+/* line 71, sass/_header.scss */
 .home .riban a:hover {
   top: 0;
 }
-/* line 72, sass/_header.scss */
+/* line 75, sass/_header.scss */
 .home .riban img {
   width: 100%;
 }
-/* line 76, sass/_header.scss */
+/* line 79, sass/_header.scss */
 .home .riban + nav {
   position: relative;
   top: 0;
@@ -675,11 +684,11 @@ figure {
   background-color: white;
   height: 6em;
 }
-/* line 82, sass/_header.scss */
+/* line 85, sass/_header.scss */
 .home .riban + nav span {
   display: inline-block;
 }
-/* line 84, sass/_header.scss */
+/* line 87, sass/_header.scss */
 .home .riban + nav span a {
   color: black;
   font-size: 2em;
@@ -693,38 +702,38 @@ figure {
   position: relative;
   z-index: 3;
 }
-/* line 94, sass/_header.scss */
+/* line 97, sass/_header.scss */
 .home .riban + nav span a:hover {
   border-bottom: 0.16em solid #aa0202;
   color: #aa0202;
 }
-/* line 101, sass/_header.scss */
+/* line 104, sass/_header.scss */
 .home .riban + nav span:nth-child(3) a {
   margin-left: 384px;
 }
-/* line 104, sass/_header.scss */
+/* line 107, sass/_header.scss */
 .home .riban + nav span:nth-last-child(n+2) a {
   margin-right: 80px;
 }
-/* line 108, sass/_header.scss */
+/* line 111, sass/_header.scss */
 .home .riban + nav .listing {
   width: 1264px;
   margin: auto;
 }
 
-/* line 152, sass/_header.scss */
+/* line 155, sass/_header.scss */
 .banniere {
   width: 100%;
   position: relative;
   color: white;
   background-color: #282828;
 }
-/* line 157, sass/_header.scss */
+/* line 160, sass/_header.scss */
 .banniere ul {
   width: 1264px;
   margin: auto;
 }
-/* line 159, sass/_header.scss */
+/* line 162, sass/_header.scss */
 .banniere ul li {
   list-style-type: none;
   display: inline-block;
@@ -733,7 +742,7 @@ figure {
   font-size: 2em;
   text-align: center;
 }
-/* line 166, sass/_header.scss */
+/* line 169, sass/_header.scss */
 .banniere ul li + li {
   margin-left: 304px;
 }
@@ -996,26 +1005,34 @@ footer h1 {
 footer h2 {
   clear: both;
   font-weight: 300;
-  padding-top: 1.5em;
+  font-size: 1.5em;
+  margin: 0 0 0.5em;
 }
 
-/* line 14, sass/_footer.scss */
+/* line 15, sass/_footer.scss */
 .contact {
   width: 1264px;
   margin: auto;
   padding-top: 1em;
 }
-/* line 17, sass/_footer.scss */
-.contact p {
-  width: 464px;
-  margin: 0 304px 0 0;
-  font-size: 1.5em;
+/* line 10, sass/_mixin.scss */
+.contact:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* line 19, sass/_footer.scss */
+.contact section {
+  width: 304px;
   float: left;
 }
 /* line 23, sass/_footer.scss */
-.contact .coordonnee {
-  width: 464px;
-  float: left;
+.contact section + section {
+  margin-left: 16px;
+}
+/* line 26, sass/_footer.scss */
+.contact p {
+  margin: 0;
 }
 /* line 10, sass/_mixin.scss */
 .contact .coordonnee:after {
@@ -1023,18 +1040,17 @@ footer h2 {
   display: block;
   clear: both;
 }
-/* line 28, sass/_footer.scss */
+/* line 37, sass/_footer.scss */
 .contact ul {
   clear: both;
-  width: 624px;
   padding-bottom: 2em;
 }
-/* line 34, sass/_footer.scss */
+/* line 43, sass/_footer.scss */
 .contact li {
   list-style-type: none;
   display: inline-block;
 }
-/* line 36, sass/_footer.scss */
+/* line 45, sass/_footer.scss */
 .contact li a {
   width: 64px;
   height: 64px;
@@ -1047,11 +1063,11 @@ footer h2 {
   display: block;
   text-indent: -9999px;
 }
-/* line 45, sass/_footer.scss */
+/* line 54, sass/_footer.scss */
 .contact li a:hover {
   opacity: 1;
 }
-/* line 51, sass/_footer.scss */
+/* line 60, sass/_footer.scss */
 .contact li + li {
   margin-left: 16px;
 }
@@ -1250,20 +1266,39 @@ footer h2 {
   clear: both;
 }
 /* line 6, sass/_aboutMe.scss */
+.about a {
+  display: block;
+  background-color: rgba(170, 2, 2, 0.5);
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  text-decoration: none;
+  width: 304px;
+  float: right;
+}
+/* line 35, sass/_mixin.scss */
+.about a:hover {
+  background-color: #aa0202;
+}
+/* line 11, sass/_aboutMe.scss */
 .about h1 {
   font-family: 'merryweather', serif;
   font-size: 3em;
   padding: 0 0.5em;
   border-right: 2px solid #282828;
 }
-/* line 14, sass/_aboutMe.scss */
+/* line 19, sass/_aboutMe.scss */
 .about div {
   width: 464px;
   margin-right: 16px;
   float: left;
   text-align: right;
 }
-/* line 21, sass/_aboutMe.scss */
+/* line 26, sass/_aboutMe.scss */
 .about article {
   width: 784px;
   float: left;
@@ -1279,7 +1314,7 @@ footer h2 {
   width: 464px;
   font-size: 2em;
   margin-right: 80px;
-  margin-top: 4em;
+  margin-top: 2em;
 }
 /* line 5, sass/_contact.scss */
 .accrocheContact h1 {
@@ -1289,6 +1324,53 @@ footer h2 {
 /* line 9, sass/_contact.scss */
 .accrocheContact p {
   font-size: 0.75em;
+}
+/* line 12, sass/_contact.scss */
+.accrocheContact form {
+  font-family: 'Open sans', sans-serif;
+  font-style: normal;
+  font-size: 0.75em;
+  max-width: 464px;
+  z-index: 5;
+}
+/* line 19, sass/_contact.scss */
+.accrocheContact input, .accrocheContact textarea {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 0.75em;
+  font-family: 'Open sans', sans-serif;
+}
+/* line 26, sass/_contact.scss */
+.accrocheContact input[type=submit] {
+  border: none;
+  display: block;
+  background-color: rgba(170, 2, 2, 0.5);
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  text-decoration: none;
+  width: 304px;
+  padding: 0.5em;
+}
+/* line 35, sass/_mixin.scss */
+.accrocheContact input[type=submit]:hover {
+  background-color: #aa0202;
+}
+/* line 32, sass/_contact.scss */
+.accrocheContact .error {
+  color: red;
+  display: none;
+  font-size: 0.75em;
+}
+/* line 37, sass/_contact.scss */
+.accrocheContact .success {
+  font-size: 2em;
+  color: green;
 }
 
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */

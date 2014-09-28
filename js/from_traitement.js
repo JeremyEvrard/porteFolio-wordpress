@@ -12,19 +12,17 @@ $(function() {
     e.preventDefault();
     var $this = $(this);
 		var email = $("input#email").val();
-		if (!validateEmail(email)) {
-      if (!$('label[for=email]>.error').length()) {$("label[for=email]").append('<span class="error">Sans une adresse mail valide je ne pourrai pas vous recontacter</span>');}
-      $("input#email").focus();
+		if (!validateEmail(email) || email === "") {
+      $('label[for=email]>.error').css('display', 'block');
+      email.focus();
       error = 1;
     }else{
       $('label[for=email]>.error').hide();
     }
 		var message = $("#message").val();
 		if (message === "") {
-    if (!$('label[for=message]>.error').length()){
-      $("label[for=message]").append('<span class="error">Vous ne pouvez pas envoyez un mail sans un message</span>');
-    }
-      $("#message").focus();
+    $('label[for=message]>.error').css('display', 'block');
+      message.focus();
       error = 1;
     }else{
       $('label[for=message]>.error').hide();
@@ -33,8 +31,8 @@ $(function() {
     if (error){return false;}
 
     $.ajax({
-      url: "http://localhost:8888/wordpress/wp-content/themes/pf/traitementMail.php", // Le nom du fichier indiqué dans le formulaire
-      type: $this.attr('method'), // La méthode indiquée dans le formulaire (get ou post)
+      url: "http://localhost:8888/wordpress/wp-content/themes/pf/traitementMail.php",
+      type: $this.attr('method'),
       data: $this.serialize(),
       success: function() {
         $('#contact_form').html('<div id="succeed" class="success"></div>');

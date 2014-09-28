@@ -17,3 +17,6 @@ figure{
 .blind{
     @include blindText; 
 }
+br{
+	display:none;
+}
