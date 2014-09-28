@@ -8,7 +8,7 @@
 		'public' => true,
         'has_archive' => true,
         'show_in_nav_menus' => true,
-		'supports' => ['title', 'author','editor', 'thumbnails', 'excerpt']
+		'supports' => ['title', 'author','editor', 'thumbnails']
 		];
 		register_post_type('creations',$args);
 

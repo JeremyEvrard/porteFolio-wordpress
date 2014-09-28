@@ -1123,7 +1123,7 @@ footer h2 {
   margin: auto;
 }
 /* line 49, sass/_listProjet.scss */
-.Projets li {
+.Projets span {
   list-style-type: none;
   display: inline-block;
   width: 50%;
@@ -1133,7 +1133,7 @@ footer h2 {
   float: left;
 }
 /* line 54, sass/_listProjet.scss */
-.Projets li a {
+.Projets span a {
   width: 100%;
   display: block;
   background-color: rgba(170, 2, 2, 0.5);
@@ -1147,19 +1147,19 @@ footer h2 {
   text-decoration: none;
 }
 /* line 35, sass/_mixin.scss */
-.Projets li a:hover {
+.Projets span a:hover {
   background-color: #aa0202;
 }
 /* line 59, sass/_listProjet.scss */
-.Projets li + li {
+.Projets span + span {
   padding-left: 8px;
 }
 /* line 62, sass/_listProjet.scss */
-.Projets li:first-child {
+.Projets span:first-child {
   padding-right: 8px;
 }
 /* line 65, sass/_listProjet.scss */
-.Projets .single li {
+.Projets .single span {
   width: 100%;
   padding: 0px;
 }
@@ -1220,14 +1220,20 @@ footer h2 {
   margin-bottom: 4em;
 }
 
-/* line 45, sass/_viewProjet.scss */
+/* line 10, sass/_mixin.scss */
+.textWithImage:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* line 46, sass/_viewProjet.scss */
 .textWithImage figure {
-  width: 6em;
+  width: 304px;
   float: right;
 }
-/* line 49, sass/_viewProjet.scss */
+/* line 50, sass/_viewProjet.scss */
 .textWithImage p {
-  width: 6em;
+  width: 624px;
   float: left;
   margin-right: 16px;
 }

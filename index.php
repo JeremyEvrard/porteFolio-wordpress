@@ -12,14 +12,14 @@
                 'post_type' => 'creations',
                 'ordy_by' => 'date_du_projet',
                 'order' => 'ASC',
-                'posts_limit' => '3'
             );
         ?>
+
         <?php $the_query = new WP_Query($posts) ?>
         <?php if($the_query->have_posts()): ?>
             <div class="conteneur">
         
-            <?php while ( $the_query->have_posts() ) : $the_query->the_post();?>
+            <?php $i = 0; while ( $the_query->have_posts() AND $i < 3) : $the_query->the_post();?>
                 <article>
                     <a href="<?php the_permalink();?>">
                         <div class="info">
@@ -32,7 +32,7 @@
                     </a>
                 </article><!--
                 -->
-            <?php endwhile ?>
+            <?php $i++; endwhile ?>
         <?php endif ?>
         <?php wp_reset_postdata(); ?>
             </div>

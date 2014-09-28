@@ -46,7 +46,7 @@
         }
 
     }
-    li{
+    span{
         @include list-horizontal;
         width:50%;
         @include box-sizing;
@@ -56,13 +56,13 @@
             @include redButton;
         }
     }
-    li+li{
+    span+span{
         padding-left:8px;
     }
-    li:first-child{
+    span:first-child{
         padding-right:8px
     }
-    .single li{
+    .single span{
         width:100%;
         padding:0px;
     }
