@@ -1,0 +1,89 @@
+@media screen and (max-width: 81em){
+	.home .riban, 
+	.home, 
+	.home .riban + nav .listing, 
+	.banniere ul{
+		width:100%;
+		margin:auto;
+	}
+}
+
+@media screen and (max-width: 71.875em){
+	.home{
+			.riban a{
+				top: -3.5em;
+			}
+			.riban + nav .listing{
+			display:none;
+			visibility:hidden;
+			position:absolute;
+			width:25%;
+			right:0;
+			z-index:100;
+			top:5.5em;
+			background-color: rgba(255,255,255,1);
+			overflow: hidden;
+			@include transition-duration(0.5s);
+		} 
+		nav .listing span{
+			display:block;
+			width:100%;
+			position:relative;
+			right:-25%;
+			a{
+				width:100%;
+				text-align: center;
+				&:hover{
+					border:none;
+				}
+			}
+		}
+		.containerMenuButton{
+			display:block;
+			position:absolute;
+			right:0%;
+			width:25%;
+			text-align: right;
+			&:hover{
+				cursor:pointer;
+			}
+			&:hover + .listing, & + .listing:hover,{
+				visibility:visible;
+				display:block;
+				& span{
+					margin:0;
+					right:0;
+				}
+			}
+			& img{
+				height:6em;
+				padding-right:10%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 65.625em){
+	.home{
+		.riban a{
+			top:-2em;
+		}
+	}
+}
+@media screen and (max-width: 60.9375em){
+	.home{
+		.riban a{
+			top:-3em;
+			margin-left: 2.5%;
+		}
+	}
+	.banniere{
+		@include clearFloat;
+		li{
+			float:right;
+			font-size:1.5em;
+		}
+		li+li{
+			margin-left:0;
+		}
+	}
+}
