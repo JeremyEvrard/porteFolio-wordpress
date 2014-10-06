@@ -1,14 +1,20 @@
 .articleProjet{
     @include center_body;
+    margin-bottom:2em;
+    @include clearFloat;
     h2{
-        font-family: 'merryWeather', serif;
+        //font-family: 'merryWeather', serif;
         font-size:2em;
         margin-bottom: 0.66em;
     }
     p{
         font-size: 1.5em;
     }
-
+    a{
+        @include redButton;
+        width:49.367088607595%;
+        margin:1em auto;
+    }
 }
 .intro{
     @include clearFloat;
@@ -32,7 +38,7 @@
         p{
             float:left;
             font-size: 1.5em;
-            margin-bottom: 3em;
+            margin: 3em 0;
             width:49.367088607595%;
         }
 }
@@ -47,12 +53,12 @@
         width:32.203389830508%;
         float:right;
         img{
-            width:100%;
+            max-width:100%;
         }
     }
     p{
         width:66.101694915254%;
         float:left;
-        margin-right:$gutter;
+        margin-right:1.26582278481%;
     }
 }

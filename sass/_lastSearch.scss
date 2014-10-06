@@ -1,13 +1,13 @@
 .lastDoc{
     @include center_body;
-    margin-bottom:2em;
     ul{
-        width:body_width;
+        margin-bottom:2em;
+        //width:body_width;
         li{
             @include list-horizontal;
-            width:24,050632911392%;
+            width:24.050632911392%;
             img{
-                //max-width:100%;
+                width:100%;
             }
         }
         li+li{

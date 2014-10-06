@@ -51,12 +51,10 @@
         }
     }
 }
+
 .home{
     h1{
         height:0;
-    }
-    .containerMenuButton{
-        display:none;
     }
     .riban{
         position:absolute;
@@ -76,6 +74,9 @@
         }
         img{
         width:100%;       
+        }
+        .large{
+            display:none;
         }
     }
     nav{
@@ -112,10 +113,10 @@
             &:nth-last-child(n+2){
                 margin-right:6.329113924051%;
             }
-        }
-        .listing{
+        }   
+    }
+    .listing{
             @include center_body;
-        }
     }
     /*.uncentred{
         @include center_body;
@@ -175,4 +176,7 @@
     li+li{
         margin-left:24.050632911392%;
     }
+}
+.containerMenuButton{
+    display:none;
 }

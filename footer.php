@@ -2,8 +2,8 @@
         <section class="contact">
             <h1>CONTACTEZ-MOI !</h1>
             <section>
-                <h2>Merci de votre visite !</h2>
-                <p>Si vous aimez ce que je fais et que vous pensez qu’on peut travailler ensemble, n’hésitez pas à me contacter !</p>
+                <h2>Merci de votre visite&nbsp;!</h2>
+                <p>Si vous aimez ce que je fais et que vous pensez qu’on peut travailler ensemble, n’hésitez pas à me contacter&nbsp;!</p>
             </section>
             <div id="hcard-Jérémy-Evrard" class="vcard">          
                 <section class="coordonnee">

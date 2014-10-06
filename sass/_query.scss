@@ -1,23 +1,34 @@
-@media screen and (max-width: 81em){
+@media screen and (max-width: 80em){
 	.home .riban, 
 	.home, 
-	.home .riban + nav .listing, 
-	.banniere ul{
+	.home .riban + nav, 
+	.banniere ul,
+	.presentation,
+	.home .listing,
+	.lastDoc,
+	.contact,
+	.Projets,
+	.about,
+	.contactPage,
+	.articleProjet{
 		width:100%;
 		margin:auto;
+	}
+	.about{
+		margin-top:3em;
 	}
 }
 
 @media screen and (max-width: 71.875em){
 	.home{
 			.riban a{
-				top: -3.5em;
+				top: -3em;
 			}
-			.riban + nav .listing{
+			.listing{
 			display:none;
 			visibility:hidden;
 			position:absolute;
-			width:25%;
+			width:37.96%;
 			right:0;
 			z-index:100;
 			top:5.5em;
@@ -25,7 +36,7 @@
 			overflow: hidden;
 			@include transition-duration(0.5s);
 		} 
-		nav .listing span{
+		nav span{
 			display:block;
 			width:100%;
 			position:relative;
@@ -43,7 +54,11 @@
 			position:absolute;
 			right:0%;
 			width:25%;
+			padding-left:10%;
 			text-align: right;
+			.white{
+				display:none;
+			}
 			&:hover{
 				cursor:pointer;
 			}
@@ -56,16 +71,33 @@
 				}
 			}
 			& img{
+				position:absolute;
 				height:6em;
-				padding-right:10%;
+				right:2%;
 			}
+		}
+	}
+	.projSlider{
+		article+article+article{
+			display:none;
+		}
+		article{
+			width:50%;
+		}
+	}
+	.lastDoc{
+		ul li{
+			width:25%;
+		}
+		ul li+li{
+			margin-left:0;
 		}
 	}
 }
 @media screen and (max-width: 65.625em){
 	.home{
 		.riban a{
-			top:-2em;
+			top:-1em;
 		}
 	}
 }
@@ -74,16 +106,318 @@
 		.riban a{
 			top:-3em;
 			margin-left: 2.5%;
+			&:hover{
+				top:-1em;
+			}
+		}			
+		.listing{
+			width:100%;
+			top:6em;
+		}
+		nav{
+			span{
+				display:inline-block;
+				width:24%;
+				position:relative;
+			}
+		}
+		.containerMenuButton{
+			z-index:10;
+			.white{
+				display:block;
+			}
+			.black{
+				display:none;
+			}
+		}
+	}
+	.intro{
+		figure{
+			width:100%;
+			margin:auto;
+			float:none;
+			img{
+				display:block;
+				margin:auto;
+			}
+		}
+		h2, p{
+		width:80%;
+		margin:auto;
+		float:none;
+		}
+		p{
+			margin:1em auto;
+			padding:0.5em;
+		}
+	}		
+	.textContent, .textWithImage{
+		width:95%;
+	}
+	.about{
+		div, article{
+			width:80%;
+			float:none;
+			margin:auto;
+		}
+		div{
+			@include clearFloat;
+			margin-bottom:1em;
+			h1{
+				margin-bottom:0;
+			}
 		}
 	}
 	.banniere{
+		position:absolute;
+		top:0;
+		z-index:1;
 		@include clearFloat;
+		ul{
+			width:60%;
+			margin-left:25%;
+		}
 		li{
-			float:right;
+			float:left;
 			font-size:1.5em;
+			width:50%;
+			margin-left:0;
 		}
 		li+li{
 			margin-left:0;
 		}
+	}
+	.accroche{
+		margin-top:3em;
+	}
+	.contact section{
+		width:40%;
+		min-height: 10em;
+		margin:0 5%;
+	}
+	.contact section+section{
+		margin-left:5%;
+	}
+	.Projets{
+		margin-top:7em;
+	}
+}
+@media screen and (max-width: 50em){
+	.home{
+		.riban{
+			a{
+				top:-4em;
+				margin: auto;
+				width:50%;
+				&:hover{
+					top:-3em;
+				}
+			}
+			.large{
+				display:block;
+			}
+			.long{
+				display:none;
+			}
+		}
+		nav span{
+			display:block;
+			width:100%;
+		}
+	}
+	.about{
+		font-size:0.75em;
+		margin-top:5em;
+	}
+	.presentation img{
+		width:70%;
+		top:0;
+		margin:auto;
+		display:block;
+		z-index:-1;
+	}
+	.presentation{
+		margin-bottom:3em;
+		&>*{
+			float:none;
+		}
+	}
+	.contactPage{
+		&>img{
+			display:none;
+		}
+	}
+	.articleProjet{
+		h2{
+			font-size:1.5em;
+		}
+		p{
+			font-size:1em;
+		}
+	}
+	.accrocheContact{
+		width:80%;
+		margin: 3em auto;
+		float:none;
+	}
+	.intro{
+		p{
+			width:95%;
+		}
+	}
+	.accroche{
+		text-align: center;
+		color:white;
+		   text-shadow: 1px 1px 1px rgba(1,1,1,0.8);
+		width:50%;
+		display:block;
+		position:absolute;
+		top:8em;
+		left:25%;
+		margin:0;
+		//background-color:rgba(1,1,1,0.5);
+	}
+	.banniere{
+		li{
+			visibility:hidden;
+			width:100%
+		}
+		li+li{
+			display:none;
+		}		
+	}
+	.projSlider{
+		article+article+article{
+			display:block;
+		}
+		article{
+			display:block;
+			width:100%;
+			position:relative;
+			overflow: hidden;
+			margin:auto;
+			float:none;
+		}
+	}
+	.Projets{
+		margin-top:0;
+	}
+	.Projets>section{
+		margin-top:4em;
+		section{
+			width:80%;
+			margin:2em auto 0;
+			float:none;
+		} 
+		section:nth-child(even){
+			margin:auto;
+		}	
+	}
+	.links{
+		@include clearFloat;
+	}
+}
+	
+@media screen and (max-width:45em){
+	.accroche{
+		top:5em;
+	}
+	.lastDoc{
+		ul li{
+			width:50%;		}
+	}
+	.home .riban a{
+		top:-2.5em;
+	}
+}
+@media screen and (max-width:37.5em){
+	.home .riban a{
+		width:60%;
+		float:left;
+		margin-left:10%;
+	}
+	.presentation{
+		img{
+			width:100%;
+		}
+	}
+	.Projets>section section{
+		width:100%
+	}
+	.accroche{
+		font-size:2em;
+		width:80%;
+		left:10%;
+		top:6em;
+	}
+	.about{
+		div,article{
+			width:90%;
+		}
+	}
+	.contact section{
+		width:80%;
+		min-height: 10em;
+		margin:0 10%;
+	}
+	.contact section+section{
+		margin-left:10%;
+	}
+	.textWithImage{
+		figure{
+			width:100%;
+			float:none;
+			img{
+				margin:auto;
+				display:block;
+			}
+		}
+		p{
+			width:95%;
+		}
+	}
+}
+@media screen and (max-width:27.5em){
+	.home nav span{
+		font-size:0.75em;
+	}
+	.accroche{
+		font-size:1.5em;
+		top:0;
+		color:black;
+		text-shadow:1px 1px 1px rgba(255,255,255,1);
+		position:relative;
+		left:0;
+		width:80%;
+		margin: 1em auto;
+		text-align: left;
+	}
+	.home .riban a{
+		top:-2em;
+		&:hover{
+			top:-1em;
+		}
+	}
+	header{
+		font-size:0.75em;
+	}
+	.projSlider article{
+		width:100%;
+	}
+	.Projets{
+		.links span{
+			width:100%;
+			padding:0.5em 0;
+		}
+	}
+}
+@media screen and (max-width:25em){
+	.home .riban a{
+		top:-1em;
+	}
+}
+@media screen and (max-width:20em){
+	.home .riban a{
+		top:-1em;
 	}
 }

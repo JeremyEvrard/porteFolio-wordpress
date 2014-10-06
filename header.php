@@ -16,12 +16,14 @@
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
         <header class="home">
-        <h1 class="riban"><a  href="../index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/riban.png" alt="Jérémy Evrard"></a></h1>
+        <h1 class="riban"><a  href="<?php echo get_site_url(); ?>"><img class="long" src="<?php echo get_template_directory_uri(); ?>/images/riban.png" alt="Jérémy Evrard"><img class="large" src="<?php echo get_template_directory_uri(); ?>/images/ribanLarge.svg" alt="Jérémy Evrard"></a></h1>
         <nav>
             <h1 class="hidden">menu de naviguation</h1>
             <div id="containerMenuButton" class="containerMenuButton">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/menuIcon.svg" alt="Boutton pour ouvrir le menu">
+                <img class="black" src="<?php echo get_template_directory_uri(); ?>/images/menuIcon.svg" alt="Boutton pour ouvrir le menu">
+                <img class="white" src="<?php echo get_template_directory_uri(); ?>/images/menuIconWhite.svg" alt="Boutton pour ouvrir le menu">
             </div>
             <?php
                 $arg = array(

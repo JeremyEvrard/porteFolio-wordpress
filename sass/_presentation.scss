@@ -1,8 +1,10 @@
 .presentation{
     @include center_body();
     @include clearFloat;
+    position:relative;
     &>*{
         float:left;
+        width:50%
     }
 }
 .aboutMe, .contactPage{
@@ -10,6 +12,7 @@
     @include clearFloat;
     &>*{
         float:right;
+        width:50%;
     }
 }
 .accrocheAboutMe{
@@ -19,6 +22,7 @@
 }
 .accroche{
     @include citation;
-    margin-left:80px;
+    margin-left:6.329113924051%;
     margin-top:6em;
+    text-shadow: 1px 1px 1px rgba(255,255,255,1);
 }
