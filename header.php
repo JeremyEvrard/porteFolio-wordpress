@@ -10,6 +10,7 @@
     <meta name="description" content="<?php blogInfo('Description'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    <link rel="alternate" type="application/rss+xml" title="Titre du site &raquo; Flux" href="http://jevrard.be/feed/" />
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>

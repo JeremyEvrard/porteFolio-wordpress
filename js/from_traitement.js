@@ -14,7 +14,6 @@ $(function() {
 		var email = $("input#email").val();
 		if (!validateEmail(email) || email === "") {
       $('label[for=email]>.error').css('display', 'block');
-      email.focus();
       error = 1;
     }else{
       $('label[for=email]>.error').hide();
@@ -22,7 +21,6 @@ $(function() {
 		var message = $("#message").val();
 		if (message === "") {
     $('label[for=message]>.error').css('display', 'block');
-      message.focus();
       error = 1;
     }else{
       $('label[for=message]>.error').hide();
@@ -31,7 +29,7 @@ $(function() {
     if (error){return false;}
 
     $.ajax({
-      url: "http://localhost:8888/wordpress/wp-content/themes/pf/traitementMail.php",
+      url: "/wp-content/themes/pf/traitementMail.php",
       type: $this.attr('method'),
       data: $this.serialize(),
       success: function() {

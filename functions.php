@@ -1,6 +1,7 @@
 <?php 
 	add_action('init','create_post_types');
 	add_action('init','create_nav_menu');
+    add_theme_support( 'automatic-feed-links' );
 	add_theme_support( 'post-thumbnails' );
 	function create_post_types(){
 		$args = [

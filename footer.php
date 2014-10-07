@@ -22,10 +22,10 @@
             <section>
                 <h2>Suivez-moi sur</h2>
                 <ul>
-                    <li><a href="#" class="socialNetwork-Linkedin" title="Voir mon profil Linkedin">Linkedin</li><!--
-                    --><li><a title="Voir mon profil Twitter" href="#" class="socialNetwork-Twitter">Twitter</a></li><!--
-                    --><li><a title="Voir mon profil Facebook" href="#" class="socialNetwork-Facebook">Facebook</a></li><!--
-                    --><li><a href="#" class="socialNetwork-Rss" title="Suivre mon contenu Rss">Rss</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/pub/j%C3%A9r%C3%A9my-evrard/a4/21b/104" class="socialNetwork-Linkedin" title="Voir mon profil Linkedin">Linkedin</li><!--
+                    --><li><a target="_blank" title="Voir mon profil Twitter" href="https://twitter.com/Evrard_Jeremy" class="socialNetwork-Twitter">Twitter</a></li><!--
+                    --><li><a target="_blank" title="Voir mon profil Facebook" href="https://www.facebook.com/jeremy.evrard.12" class="socialNetwork-Facebook">Facebook</a></li><!--
+                    --><li><a href="http://www.jevrard.be/feed/" class="socialNetwork-Rss" title="Suivre mon contenu Rss">Rss</a></li>
                 </ul>
             </section> 
         </section>

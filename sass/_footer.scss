@@ -2,9 +2,6 @@ footer{
     width:100%;
     background-color:$darkGrey;
     color:white;
-    h1{
-        margin-left:0;
-    }
     h2{
         clear:both;
         font-weight: 300;
@@ -20,8 +17,11 @@ footer{
         width:24.050632911392%;
         float:left;
     }
-    section+section{
+    section{
         margin-left: 1.26582278481%;
+    }
+    section:last-child{
+        margin-left: 0;
     }
     p{
         //width:$col_6;

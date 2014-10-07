@@ -483,7 +483,7 @@ ul {
 h1 {
   font-size: 2em;
   font-weight: 400;
-  margin-left: 6.329113924051%;
+  margin-left: 1.26582%;
 }
 
 /* line 14, sass/_basic.scss */
@@ -617,10 +617,9 @@ br {
 }
 /* line 59, sass/_header.scss */
 .home .riban {
-  position: absolute;
   width: 1264px;
   margin: auto;
-  margin: 0;
+  margin: auto;
 }
 /* line 63, sass/_header.scss */
 .home .riban a {
@@ -985,10 +984,6 @@ footer {
   color: white;
 }
 /* line 5, sass/_footer.scss */
-footer h1 {
-  margin-left: 0;
-}
-/* line 8, sass/_footer.scss */
 footer h2 {
   clear: both;
   font-weight: 300;
@@ -996,7 +991,7 @@ footer h2 {
   margin: 0 0 0.5em;
 }
 
-/* line 15, sass/_footer.scss */
+/* line 12, sass/_footer.scss */
 .contact {
   width: 1264px;
   margin: auto;
@@ -1008,14 +1003,18 @@ footer h2 {
   display: block;
   clear: both;
 }
-/* line 19, sass/_footer.scss */
+/* line 16, sass/_footer.scss */
 .contact section {
   width: 24.050632911392%;
   float: left;
 }
-/* line 23, sass/_footer.scss */
-.contact section + section {
+/* line 20, sass/_footer.scss */
+.contact section {
   margin-left: 1.26582278481%;
+}
+/* line 23, sass/_footer.scss */
+.contact section:last-child {
+  margin-left: 0;
 }
 /* line 26, sass/_footer.scss */
 .contact p {
@@ -1273,10 +1272,11 @@ footer h2 {
   float: left;
   font-size: 1.5em;
   margin: 3em 0;
+  padding-right: 0.5em;
   width: 49.367088607595%;
 }
 
-/* line 45, sass/_viewProjet.scss */
+/* line 46, sass/_viewProjet.scss */
 .textContent, .textWithImage {
   width: 74.683544303797%;
   margin: auto;
@@ -1289,16 +1289,16 @@ footer h2 {
   display: block;
   clear: both;
 }
-/* line 52, sass/_viewProjet.scss */
+/* line 53, sass/_viewProjet.scss */
 .textWithImage figure {
   width: 32.203389830508%;
   float: right;
 }
-/* line 55, sass/_viewProjet.scss */
+/* line 56, sass/_viewProjet.scss */
 .textWithImage figure img {
   max-width: 100%;
 }
-/* line 59, sass/_viewProjet.scss */
+/* line 60, sass/_viewProjet.scss */
 .textWithImage p {
   width: 66.101694915254%;
   float: left;

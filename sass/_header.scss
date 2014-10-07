@@ -57,9 +57,9 @@
         height:0;
     }
     .riban{
-        position:absolute;
+        //position:absolute;
         @include center_body;
-        margin:0;
+        margin:auto;
         a{
             width: 24.05063%;
             position:relative;
