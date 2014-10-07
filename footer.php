@@ -36,5 +36,6 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/from_traitement.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/strip/strip.min.js"></script>
 </body>
 </html>

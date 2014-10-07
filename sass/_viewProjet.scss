@@ -10,10 +10,28 @@
     p{
         font-size: 1.5em;
     }
-    a{
+    .siteLink{
         @include redButton;
         width:49.367088607595%;
         margin:1em auto;
+    }
+}
+.gallery{
+    width:1264px;
+    padding:1.26582278481%;
+    margin:auto;
+    @include clearFloat;
+    a{
+        width:24.050632911392%;
+        display:block;
+        float:left;
+        img{
+            max-width: 100%;
+            width:100%;
+        }
+    }
+    a+a{
+        margin-left:1.26582278481%;
     }
 }
 .intro{

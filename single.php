@@ -14,7 +14,7 @@
             <?php if (get_field('adresse_du_site')): ?>
             <div>
                 <span>
-                    <a target="_blank" href="<?php the_field('adresse_du_site') ?>">Accéder au site </a>
+                    <a class ="siteLink" target="_blank" href="<?php the_field('adresse_du_site') ?>">Accéder au site </a>
                 </span>
             </div>
             <?php endif ?>
