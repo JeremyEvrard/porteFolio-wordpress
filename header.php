@@ -4,16 +4,15 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="fr"> <!--<![endif]-->
 <head>
-    <meta charset="<?php blogInfo('charset'); ?>"> 
+    <meta charset="<?php blogInfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title><?php blogInfo('Name'); ?></title>
     <meta name="description" content="<?php blogInfo('Description'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/strip/strip.min.js"></script>
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/strip/strip.css"/>
     <link rel="alternate" type="application/rss+xml" title="Titre du site &raquo; Flux" href="http://jevrard.be/feed/" />
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="private/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
     <!--[if lt IE 7]>
@@ -21,9 +20,9 @@
     <![endif]-->
     <!--[if lt IE 9]> <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
         <header class="home">
-        <h1 class="riban"><a  href="<?php echo get_site_url(); ?>"><img class="long" src="<?php echo get_template_directory_uri(); ?>/images/riban.png" alt="Jérémy Evrard"><img class="large" src="<?php echo get_template_directory_uri(); ?>/images/ribanLarge.svg" alt="Jérémy Evrard"></a></h1>
+        <h1 class="riban"><a  href="<?php echo get_site_url(); ?>"><img class="long" src="<?php echo get_template_directory_uri(); ?>/images/slice1.png" alt="Jérémy Evrard"><img class="large" src="<?php echo get_template_directory_uri(); ?>/images/slice2.png" alt="Jérémy Evrard"></a></h1>
         <nav>
-            <h1 class="hidden">menu de naviguation</h1>
+            <h2 class="hidden">menu de naviguation</h2>
             <div id="containerMenuButton" class="containerMenuButton">
                 <img class="black" src="<?php echo get_template_directory_uri(); ?>/images/menuIcon.svg" alt="Boutton pour ouvrir le menu">
                 <img class="white" src="<?php echo get_template_directory_uri(); ?>/images/menuIconWhite.svg" alt="Boutton pour ouvrir le menu">

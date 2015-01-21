@@ -46,7 +46,24 @@ function start_lvl( &$output, $depth = 0, $args = array() ) {
     // build html
    
 }
-  
+function add_menu_parent_class( $items ) {
+
+    $parents = array();
+    foreach ( $items as $item ) {
+        if ( $item->menu_item_parent && $item->menu_item_parent > 0 ) {
+            $parents[] = $item->menu_item_parent;
+        }
+    }
+
+    foreach ( $items as $item ) {
+        if ( in_array( $item->ID, $parents ) ) {
+            $item->classes[] = 'menu-parent-item';
+        }
+    }
+
+    return $items;
+}
+
 // add main/sub classes to li's and links
  function start_el(  &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
     global $wp_query;

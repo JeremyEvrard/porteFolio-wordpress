@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49b3819b-d38b-4f64-bbb8-f3db169462f5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/images/slice1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/images/slice2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/js/min/main-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/js/main.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/min/main-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/jquery-1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/vendor/modernizr-2.6.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/.sass-cache/c2ceb9835e9466609b821a6d1c203f108aca9c6d/style.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_aboutMe.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_basic.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_contact.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_header.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_lastSearch.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_listProjet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_mixin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_presentation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_projetSection.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_query.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_variable.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/_viewProjet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/ie.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/screen.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/81389A28E34A3557._t_" afterPath="$PROJECT_DIR$/private/images/81389A28E34A3557._t_" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Jquerry.png" afterPath="$PROJECT_DIR$/private/images/Jquerry.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/NodeJS.png" afterPath="$PROJECT_DIR$/private/images/NodeJS.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/PHP.png" afterPath="$PROJECT_DIR$/private/images/PHP.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/bibliosquare.png" afterPath="$PROJECT_DIR$/private/images/bibliosquare.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/casseBrique.png" afterPath="$PROJECT_DIR$/private/images/casseBrique.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/dietezia.png" afterPath="$PROJECT_DIR$/private/images/dietezia.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/jocelyneScharres.png" afterPath="$PROJECT_DIR$/private/images/jocelyneScharres.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/lePendu.png" afterPath="$PROJECT_DIR$/private/images/lePendu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/private/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/modelResponsive.png" afterPath="$PROJECT_DIR$/private/images/modelResponsive.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/photo.png" afterPath="$PROJECT_DIR$/private/images/photo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/photoInv.png" afterPath="$PROJECT_DIR$/private/images/photoInv.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/projet1.jpg" afterPath="$PROJECT_DIR$/private/images/projet1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/projet2.jpg" afterPath="$PROJECT_DIR$/private/images/projet2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/projet3.jpg" afterPath="$PROJECT_DIR$/private/images/projet3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/refonteImangi.png" afterPath="$PROJECT_DIR$/private/images/refonteImangi.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/riban.png" afterPath="$PROJECT_DIR$/private/images/riban.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/ribanInvHover.png" afterPath="$PROJECT_DIR$/private/images/ribanInvHover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/ribanMenu.png" afterPath="$PROJECT_DIR$/private/images/ribanMenu.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sass.png" afterPath="$PROJECT_DIR$/private/images/sass.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork-s904bc38bab.png" afterPath="$PROJECT_DIR$/private/images/socialNetwork-s904bc38bab.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Facebook.png" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Facebook.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Facebook.svg" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Facebook.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Facebook_hover.png" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Facebook_hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Facebook_hover.svg" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Facebook_hover.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Linkedin.png" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Linkedin.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Linkedin.svg" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Linkedin.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Linkedin_hover.png" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Linkedin_hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Linkedin_hover.svg" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Linkedin_hover.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Rss.png" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Rss.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Rss.svg" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Rss.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Rss_hover.png" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Rss_hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Rss_hover.svg" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Rss_hover.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Twitter.png" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Twitter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Twitter.svg" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Twitter.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Twitter_hover.png" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Twitter_hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/socialNetwork/Twitter_hover.svg" afterPath="$PROJECT_DIR$/private/images/socialNetwork/Twitter_hover.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sprite.png" afterPath="$PROJECT_DIR$/private/images/sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/from_traitement.js" afterPath="$PROJECT_DIR$/private/js/from_traitement.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/min/from_traitement-min.js" afterPath="$PROJECT_DIR$/private/js/min/from_traitement-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/plugins.js" afterPath="$PROJECT_DIR$/private/js/libs/plugins.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/strip/strip.js" afterPath="$PROJECT_DIR$/private/js/libs/strip.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/strip/strip.min.js" afterPath="$PROJECT_DIR$/private/js/libs/strip/strip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/c2ceb9835e9466609b821a6d1c203f108aca9c6d/_aboutMe.scssc" afterPath="$PROJECT_DIR$/.sass-cache/c2ceb9835e9466609b821a6d1c203f108aca9c6d/_aboutMe.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/c2ceb9835e9466609b821a6d1c203f108aca9c6d/_query.scssc" afterPath="$PROJECT_DIR$/.sass-cache/c2ceb9835e9466609b821a6d1c203f108aca9c6d/_query.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/c2ceb9835e9466609b821a6d1c203f108aca9c6d/_viewProjet.scssc" afterPath="$PROJECT_DIR$/.sass-cache/c2ceb9835e9466609b821a6d1c203f108aca9c6d/_viewProjet.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+    </list>
+    <ignored path="pf.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pf" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/scss/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.862069" vertical-offset="494" max-vertical-offset="1508">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixin.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/scss/_mixin.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.586206" vertical-offset="0" max-vertical-offset="1170">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/scss/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.310345" vertical-offset="2288" max-vertical-offset="4862">
+              <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6786297" vertical-offset="0" max-vertical-offset="1378">
+              <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/screen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1269" max-vertical-offset="1924">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8346" max-vertical-offset="40560">
+              <caret line="401" column="1" selection-start-line="401" selection-start-column="1" selection-end-line="401" selection-end-column="1" />
+              <folding>
+                <marker date="1420448943000" expanded="true" signature="689:946" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="1700:1724" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="1992:2044" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="2161:2250" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="2795:2816" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="2909:2912" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="3264:3354" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="3430:3458" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="3694:3696" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="4133:4171" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="4282:4295" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="5942:5977" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="6766:6775" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="7751:7890" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="7944:7948" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="8229:8319" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="8474:8540" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="8739:8770" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="9850:9861" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="9921:10031" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="10101:10192" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="13339:13371" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="13458:13475" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="13531:13558" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="14075:14085" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="14902:14999" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="15073:15116" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="16280:16312" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="20578:20586" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="20969:20985" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="21158:21215" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="24618:24661" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="24787:24819" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="24895:24906" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="25058:25117" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="25174:25216" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="25248:25289" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="25309:25327" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="25356:25393" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="25658:25927" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="26573:26576" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="27430:27438" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="27479:27488" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="27770:27811" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="27859:27875" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="28996:29052" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="30133:30162" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="31048:31084" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="31785:31818" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="31944:31971" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="32032:32040" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="33089:33116" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="33240:33263" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="33625:33642" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="34256:34273" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="34340:34357" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="34440:34469" placeholder="{...}" />
+                <marker date="1420448943000" expanded="true" signature="34597:34621" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.32" vertical-offset="0" max-vertical-offset="702">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="2236">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/config.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.24" vertical-offset="0" max-vertical-offset="806">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/private/js/plugins.js" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/private/scss/_contact.scss" />
+        <option value="$PROJECT_DIR$/private/scss/_aboutMe.scss" />
+        <option value="$PROJECT_DIR$/private/scss/_listProjet.scss" />
+        <option value="$PROJECT_DIR$/private/scss/_projetSection.scss" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/private/scss/_basic.scss" />
+        <option value="$PROJECT_DIR$/private/config.rb" />
+        <option value="$PROJECT_DIR$/private/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/private/scss/style.scss" />
+        <option value="$PROJECT_DIR$/private/scss/_mixin.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/private" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/private/js/libs" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/private" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49b3819b-d38b-4f64-bbb8-f3db169462f5" name="Default" comment="" />
+      <created>1420403601195</created>
+      <option name="number" value="Default" />
+      <updated>1420403601195</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/private/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="655">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/js/libs/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="728">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3448277" vertical-offset="726" max-vertical-offset="1352">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/images/81389A28E34A3557._t_">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="655">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="655">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5850">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_aboutMe.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.413793" vertical-offset="388" max-vertical-offset="1014">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.06896552" vertical-offset="102" max-vertical-offset="1222">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_lastSearch.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="655">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_listProjet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.689655" vertical-offset="0" max-vertical-offset="1976">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_presentation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.0" vertical-offset="232" max-vertical-offset="858">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_projetSection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.344828" vertical-offset="728" max-vertical-offset="1820">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_query.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="258.2069" vertical-offset="7488" max-vertical-offset="11492">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7931035" vertical-offset="0" max-vertical-offset="1872">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_viewProjet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2522">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_basic.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.172414" vertical-offset="0" max-vertical-offset="702">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="655">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1924">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.32" vertical-offset="0" max-vertical-offset="702">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8346" max-vertical-offset="40560">
+          <caret line="401" column="1" selection-start-line="401" selection-start-column="1" selection-end-line="401" selection-end-column="1" />
+          <folding>
+            <marker date="1420448943000" expanded="true" signature="689:946" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="1700:1724" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="1992:2044" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="2161:2250" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="2795:2816" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="2909:2912" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="3264:3354" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="3430:3458" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="3694:3696" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="4133:4171" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="4282:4295" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="5942:5977" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="6766:6775" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="7751:7890" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="7944:7948" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="8229:8319" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="8474:8540" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="8739:8770" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="9850:9861" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="9921:10031" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="10101:10192" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="13339:13371" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="13458:13475" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="13531:13558" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="14075:14085" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="14902:14999" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="15073:15116" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="16280:16312" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="20578:20586" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="20969:20985" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="21158:21215" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="24618:24661" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="24787:24819" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="24895:24906" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="25058:25117" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="25174:25216" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="25248:25289" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="25309:25327" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="25356:25393" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="25658:25927" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="26573:26576" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="27430:27438" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="27479:27488" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="27770:27811" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="27859:27875" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="28996:29052" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="30133:30162" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="31048:31084" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="31785:31818" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="31944:31971" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="32032:32040" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="33089:33116" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="33240:33263" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="33625:33642" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="34256:34273" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="34340:34357" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="34440:34469" placeholder="{...}" />
+            <marker date="1420448943000" expanded="true" signature="34597:34621" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.24" vertical-offset="0" max-vertical-offset="806">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="2236">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.862069" vertical-offset="494" max-vertical-offset="1508">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.586206" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/scss/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.310345" vertical-offset="2288" max-vertical-offset="4862">
+          <caret line="114" column="13" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6786297" vertical-offset="0" max-vertical-offset="1378">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

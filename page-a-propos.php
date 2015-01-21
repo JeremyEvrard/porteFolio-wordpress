@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <section class="about">
+    <div class="about">
 	<?php 
         // The Query
         $the_query = new WP_Query( 'pagename=a-propos' );
@@ -18,5 +18,5 @@
     ?>
 
 
-    </section>
+    </div>
 <?php get_footer(); ?>

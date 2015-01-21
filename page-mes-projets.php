@@ -1,8 +1,8 @@
 <?php get_header(); ?>
     <section class="Projets" itemscope itemtype="http://schema.org/WebPage">
-        <h1 class="hidden">Mes projets</h1>
+        <h2 class="hidden">Mes projets</h2>
         <section>
-            <h2>Mes projet Web</h2>
+            <h3>Mes projet Web</h3>
             <?php
             $posts = array(
                 'post_type' => 'creations',
@@ -16,7 +16,7 @@
             <?php if($the_query->have_posts()): ?>
                 <?php while ($the_query->have_posts()):$the_query->the_post();?>
             <section>
-                <h3 itemprop="name"><?php the_title(); ?></h3>
+                <h4 itemprop="name"><?php the_title(); ?></h4>
                 <figure itemprop="image">
                     <img src="<?php the_field('image_presentation') ?>" alt="Site internet <?php the_title() ?>">
                 </figure> 
@@ -30,7 +30,7 @@
             <?php endif ?>
         </section>
         <section>
-            <h2>Mes autres projets</h2>
+            <h3>Mes autres projets</h3>
             <?php
             $posts = array(
                 'post_type' => 'creations',
@@ -44,7 +44,7 @@
             <?php if($the_query->have_posts()): ?>
                 <?php while ($the_query->have_posts()):$the_query->the_post();?>
             <section>
-                <h3 itemprop="name"><?php the_title() ?></h3>
+                <h4 itemprop="name"><?php the_title() ?></h4>
                 <figure itemprop="image">
                     <img src="<?php the_field('image_presentation') ?>" alt="image de présentation de <?php the_title() ?>">
                 </figure> 

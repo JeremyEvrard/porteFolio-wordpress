@@ -1,0 +1,40 @@
+@mixin list_horizontal(){
+    list-style-type: none;
+    display:inline-block;
+}
+@mixin center_body(){
+    width:$body_width;
+    margin:auto;
+}
+@mixin clearFloat(){
+    &:after{
+        content:'';
+        display:block;
+        clear:both;
+    }
+}
+@mixin blindText{
+    text-indent: -9999px;
+}
+@mixin citation(){
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-style: italic;
+    width:36.708860759494%;
+    //float:left;
+    font-size: 2em;
+}
+@mixin redButton{
+    display:block;
+    background-color: rgb(170, 57, 60);
+    background-color: rgba(170,2,2,0.5);
+    @include transition-duration(0.2s);
+    color:white;
+    padding:1em 0;
+    text-align: center;
+    text-decoration: none;
+    &:hover{
+        background-color: rgb(170,2,2);
+        background-color: rgba(170,2,2,1);
+    }
+}

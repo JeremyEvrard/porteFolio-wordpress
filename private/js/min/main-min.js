@@ -1,0 +1,1 @@
+!function($){"use strict";var i=$(".contact li a"),t=$(".gallery a"),n=function(i,t){t.css({height:t.width()*i})};$(window).resize(function(){n(1,i),n(.75,t)})}(jQuery);

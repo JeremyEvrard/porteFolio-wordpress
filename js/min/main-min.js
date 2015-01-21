@@ -1,1 +1,0 @@
-!function($){"use strict";var i=$(".contact li a");i.css({height:i.width()}),$(window).resize(function(){i.css({height:i.width()})})}(jQuery);
