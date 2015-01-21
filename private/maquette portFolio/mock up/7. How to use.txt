@@ -1,0 +1,32 @@
+There are four following colors of folders and layer in each .psd file:
+
+1. Red		- smart-object with the 2880x1800px screenshot
+2. Green 	- folder with all box's layers
+3. Blue 	- folders with display's (closed/30/90/110)
+4. Yellow	- folder with the shadow and reflection
+
+
+
+To change a angle of the display in one of the source (e.x. 2.Macbook - front views.psd)
+you just need to turn on 'Display-90' folder and turn off 'Display-30'.
+
+
+There two ways to replace the original screenshot on the display with your own. 
+Your own screenshot must be 2880x1800px size.
+
+First one:
+1. Open one of the .psd files in the Adobe Photoshop.
+2. Right-click on the red 'Replace the Screen' layer.
+3. Select 'Replace Contents'
+4. Choose the image file on your computer.
+
+Second one:
+1. Open one of the .psd files in the Adobe Photoshop.
+2. Double-click on the thumbnail of the red 'Replace the Screen' layer.
+3. Drag & drop your own screeshot into opened smart-object or paste it from the clipboard.
+
+
+
+To upscale or downscale one of the views then just press 
+ALT+CTRL+I (ALT+COMMAND+I), set the desired size and press OK.
+The rest will be done automatically without loss of quality.
