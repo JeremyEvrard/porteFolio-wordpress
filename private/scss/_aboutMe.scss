@@ -1,5 +1,6 @@
 .about{
     margin:3em auto;
+    padding-bottom:3em;
     //margin:2em;
     width:$body_width;
     @include clearFloat;
@@ -9,11 +10,14 @@
         float:right;
     }
     h2{
-        font-family: 'merryweather', serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 3em;
         //color:white;
         padding:0 0.5em;
         border-right:2px solid $darkGrey;
+        text-transform: uppercase;
+        line-height: 1;
+        font-weight: 300;
         //background-color: $darkGrey;
     }
     div.header{
@@ -25,9 +29,9 @@
     }
     .article{
         @include box-sizing;
-        width:62.025316455696%;
+        width:43.037974683544%;
         float:left;
-        font-size: 1.5em;
+        font-size: 1em;
         padding-right:5%;
         font-weight:400;
     }

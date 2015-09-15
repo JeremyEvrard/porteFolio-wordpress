@@ -2,7 +2,11 @@ footer{
     width:100%;
     background-color:$darkGrey;
     color:white;
+    padding-bottom:2em;
     h2{
+
+    }
+    h3{
         clear:both;
         font-weight: 300;
         font-size:1.5em;
@@ -29,6 +33,13 @@ footer{
         padding-right:2em;
         //font-size:1.5em;
         //float:left;
+        a, a:visited{
+            color:white;
+            text-decoration: none;
+        }
+        a:hover,a:focus,a:active{
+            text-decoration: underline;
+        }
     }
     .coordonnee{
         //width:$col_6;
@@ -64,25 +75,49 @@ footer{
 }
 .socialNetwork-Linkedin{
     background-image: url("./images/socialNetwork/Linkedin.png");
-    &:hover{
+    &:after{
+      content:'';
+      width:0px;
+      position:absolute;
+      height:0px;
+    }
+    &:hover, &:after{
        background-image: url("./images/socialNetwork/Linkedin_hover.png"); 
     }
 }
 .socialNetwork-Twitter{
     background-image: url("./images/socialNetwork/Twitter.png");
-    &:hover{
+    &:after{
+      content:'';
+      width:0px;
+      position:absolute;
+      height:0px;
+    }
+    &:hover, &:after{
         background-image: url("./images/socialNetwork/Twitter_hover.png");
     }
 }
 .socialNetwork-Facebook{
     background-image: url("./images/socialNetwork/Facebook.png");
-    &:hover{
+    &:after{
+      content:'';
+      width:0px;
+      position:absolute;
+      height:0px;
+    }
+    &:hover, &:after{
         background-image: url("./images/socialNetwork/Facebook_hover.png");
     }
 }
 .socialNetwork-Rss{
     background-image: url("./images/socialNetwork/Rss.png");
-    &:hover{
+    &:after{
+      content:'';
+      width:0px;
+      position:absolute;
+      height:0px;
+    }
+    &:hover, &:after{
         background-image: url("./images/socialNetwork/Rss_hover.png");
     }
 }

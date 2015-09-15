@@ -2,13 +2,16 @@
     @include center_body;
     margin-bottom:2em;
     @include clearFloat;
-    h2{
+    h3{
         //font-family: 'merryWeather', serif;
         font-size:2em;
-        margin-bottom: 0.66em;
+        margin-bottom: 0.33em;
+        font-weight: 300;
     }
     p{
         font-size: 1.5em;
+        font-weight: 300;
+        margin-top:0.5em;
     }
     .siteLink{
         @include redButton;
@@ -18,10 +21,11 @@
     }
 }
 .intro{
+    margin-bottom: 4em;
     @include clearFloat;
     figure{
             //text-align: center;
-            margin-top:2em;
+            margin-top:4em;
             width:49.367088607595%;
             float:left;
             display:block;
@@ -30,17 +34,19 @@
                 max-width:100%;
             }
         }
-        h2{
+        h4{
             font-size:3em;
             text-align: center;
             width:49.367088607595%;
             float:left;
+            font-weight: 300;
         }
         p{
             float:left;
             font-size: 1.5em;
             margin: 3em 0;
             padding-right: 0.5em;
+            font-weight: 300;
             width:49.367088607595%;
         }
 }

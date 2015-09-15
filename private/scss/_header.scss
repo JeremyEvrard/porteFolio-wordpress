@@ -88,6 +88,12 @@
         span:first-child{
             margin-left:2.5%;
         }
+        .current-menu-item{
+          a{
+            border-bottom: 0.16em solid $red;
+            color:$red;
+          }
+        }
         span{
             display:inline-block;
             a{
@@ -115,7 +121,7 @@
             }
         }   
     }
-    .listing{
+    .spansting{
             @include center_body;
     }
     /*.uncentred{

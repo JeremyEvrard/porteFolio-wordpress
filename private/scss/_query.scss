@@ -20,6 +20,9 @@
 	.home .riban{
 		position:absolute;
 	}
+  .adresse{
+    margin-right:-16px;
+  }
 }
 
 @media screen and (max-width: 71.875em){
@@ -27,23 +30,28 @@
 			.riban a{
 				top: -3em;
 			}
-			.listing{
-			display:none;
-			visibility:hidden;
-			position:absolute;
-			width:37.96%;
-			right:0;
-			z-index:100;
-			top:5.5em;
-			background-color: rgba(255,255,255,1);
-			overflow: hidden;
-			@include transition-duration(0.5s);
+			.spansting{
+              display:none;
+              visibility:hidden;
+              position:absolute;
+              width:37.96%;
+              right:0;
+              z-index:100;
+              top:5.5em;
+              background-color: rgba(255,255,255,1);
+              overflow: hidden;
+              @include transition-duration(0.5s);
 		} 
 		nav span{
 			display:block;
 			width:100%;
 			position:relative;
 			right:-25%;
+            &.current-menu-item{
+              a{
+                border:none;
+              }
+            }
 			a{
 				width:100%;
 				text-align: center;
@@ -65,7 +73,7 @@
 			&:hover{
 				cursor:pointer;
 			}
-			&:hover + .listing, & + .listing:hover,{
+			&:hover + .spansting, & + .spansting:hover,{
 				visibility:visible;
 				display:block;
 				& span{
@@ -113,7 +121,7 @@
 				top:-1em;
 			}
 		}			
-		.listing{
+		.spansting{
 			width:100%;
 			top:6em;
 		}

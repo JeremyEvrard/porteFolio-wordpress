@@ -18,7 +18,7 @@
             <section>
                 <h4 itemprop="name"><?php the_title(); ?></h4>
                 <figure itemprop="image">
-                    <img src="<?php the_field('image_presentation') ?>" alt="Site internet <?php the_title() ?>">
+                    <a title="Lien vers la page de description" href="<?php the_permalink(); ?>"><img src="<?php the_field('image_presentation'); ?>" alt="Plus d'info sur <?php the_title(); ?>"></a>
                 </figure> 
                 <p itemprop="description"><?php the_field('introduction') ?></p>
                 <div class="links">
@@ -26,7 +26,7 @@
                     <span><a target="_blank" href="<?php the_field('adresse_du_site') ?>">Accéder au site </a></span>
                 </div>
             </section>
-            <?php endwhile ?>
+                <?php endwhile ?>
             <?php endif ?>
         </section>
         <section>
@@ -46,7 +46,7 @@
             <section>
                 <h4 itemprop="name"><?php the_title() ?></h4>
                 <figure itemprop="image">
-                    <img src="<?php the_field('image_presentation') ?>" alt="image de présentation de <?php the_title() ?>">
+                    <img src="<?php the_field('image_presentation') ?>" alt="">
                 </figure> 
                 <p itemprop="description"><?php the_field('introduction') ?></p>
                 <div <?php if (!get_field('avec_site_web')):?>class="single"<?php else: ?>class="links"<?php endif ?>>

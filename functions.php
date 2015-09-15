@@ -14,11 +14,11 @@
 		register_post_type('creations',$args);
 
         $args = [
-        'label' => 'documentations',
+        'label' => 'technologies',
         'public' => true,
         'supports' => ['title', 'thumbnails']
         ];
-        register_post_type('documentations',$args);
+        register_post_type('technologies',$args);
 	}
 
 	function create_nav_menu(){
