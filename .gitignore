@@ -4,4 +4,5 @@ private/vendor/*
 private/.sass-cache/*
 
 www/*
+
 .idea/workspace.xml
